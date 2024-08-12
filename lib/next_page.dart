@@ -26,7 +26,6 @@ class _AddPageState extends State<AddPage> {
         children: [
           TextField(
             onChanged: (value) {
-              print(value);
               newWord = value;
             },
           ),
@@ -36,7 +35,7 @@ class _AddPageState extends State<AddPage> {
                 _addFirebaseData();
                 Navigator.pop(context);
               },
-              child: Text("追加"),
+              child: const Text("追加"),
           ),
         ],
       ),

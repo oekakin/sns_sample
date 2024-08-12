@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:sns_app/post.dart';
 
 class UpdatePage extends StatefulWidget {
-  UpdatePage(this.post, {super.key});
+  const UpdatePage(this.post, {super.key});
 
   final Post post;
 
@@ -30,7 +30,6 @@ class _UpdatePageState extends State<UpdatePage> {
           TextFormField(
             initialValue: widget.post.text,
             onChanged: (value) {
-              print(value);
               updatedWord = value;
               setState(() {});
             },
@@ -41,7 +40,7 @@ class _UpdatePageState extends State<UpdatePage> {
               _updateFirebaseData();
               Navigator.pop(context);
             },
-            child: Text("更新"),
+            child: const Text("更新"),
           ),
         ],
       ),

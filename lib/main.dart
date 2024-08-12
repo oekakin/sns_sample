@@ -108,20 +108,20 @@ class _MyHomePageState extends State<MyHomePage> {
                             padding: const EdgeInsets.symmetric(horizontal: 16,vertical: 8),
                             child: Row(
                 children: [
-                  Icon(Icons.person_2_sharp, size: 48,
+                  const Icon(Icons.person_2_sharp, size: 48,
                   ),
                   Text(
                       post.text,
-                      style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                      style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
-                  Spacer(),
+                  const Spacer(),
                   IconButton(
                     onPressed: () async{
                     //削除
                     await _delete(post.id);
                     await _fetchFirebaseData();
                   },
-                      icon: Icon(Icons.delete),),
+                      icon: const Icon(Icons.delete),),
                 ],
                             ),
                           ),
