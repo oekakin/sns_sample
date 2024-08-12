@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842803455774",
+    "project_id": "sns-app-dc047",
+    "storage_bucket": "sns-app-dc047.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842803455774:android:274b53b93c3183fff40b0f",
+        "android_client_info": {
+          "package_name": "com.oekakin.sns_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqtEQrhVOwqHkFbAgVdQky7iL0DB5Usrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
